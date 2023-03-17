@@ -42,4 +42,8 @@
     padding-bottom: 5px;
     border-radius: 15px;
 }
- 
+.addToCartBttn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+}
