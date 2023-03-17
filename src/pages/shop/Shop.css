@@ -3,16 +3,23 @@
     text-align: center;
     font-size: 40px;
 }
-.products {
+/* .products {
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+} */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
 }
 .product {
     border-radius: 15px;
-    width: 300px;
+    width: 200px;
     height: 350px;
     margin: 100px;
     display: flex;
