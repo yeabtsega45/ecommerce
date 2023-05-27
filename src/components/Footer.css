@@ -6,3 +6,11 @@
     align-items: center;
     padding: 0;
 }
+.footer > button {
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    background-color: #005ea2;
+    padding: 5px;
+    margin: 10px;
+}
