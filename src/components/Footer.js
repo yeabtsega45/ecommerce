@@ -21,6 +21,10 @@ function Footer() {
           <TelegramIcon className="icon" />
         </a>
       </div>
+      <p className="copyright">
+        Copyright © 2023 Kotebe 7th Day Adventist Church | Designed by Yeabtsega
+        Yeshidnber
+      </p>
     </div>
   );
 }
