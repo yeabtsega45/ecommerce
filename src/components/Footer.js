@@ -1,4 +1,8 @@
 import React from "react";
+import "./Footer.css";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import EmailIcon from "@material-ui/icons/Email";
+import TelegramIcon from "@material-ui/icons/Telegram";
 
 function Footer() {
   return (
