@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import EmailIcon from "@material-ui/icons/Email";
-import TelegramIcon from "@material-ui/icons/Telegram";
+import { FaFacebook } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -12,13 +12,13 @@ function Footer() {
       <button>Sign up</button>
       <div className="icons">
         <a href="https://www.facebook.com/">
-          <FacebookIcon className="icon" />
+          <FaFacebook className="icon" />
         </a>
         <a href="https://mail.google.com">
-          <EmailIcon className="icon" />
+          <FaMailBulk className="icon" />
         </a>
         <a href="https://telegram.org/">
-          <TelegramIcon className="icon" />
+          <FaTelegram className="icon" />
         </a>
       </div>
       <p className="copyright">
